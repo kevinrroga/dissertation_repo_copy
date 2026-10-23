@@ -233,13 +233,9 @@ The practical result: **the scoring (Path A) is fully reproducible from the save
 - **Non-determinism.** Rerunning Path B will not reproduce the stored model outputs.
 - **Some committed output files are slightly older than their scripts.** For example, the `declines_*_results.json` files in the attack vector and CIA folders lack some CVE-ID lists that the current scripts write. The headline numbers are unaffected. Rerunning the scripts regenerates them.
 
----
-
 ## Dataset history
 
 `building_the_real_dataset.py`, `dataset_walking_backwards.py` and `dataset_with_rejected_filter_applied.py` are successive iterations of the dataset build, kept for the record. The frozen output is `ultimate_dataset/dataset_v1_locked_24jun_with_cwe_names.json`. `scripts/dataset/dataset_with_cwe_names.json` is an earlier refetch that drifted from the locked set and **should not be used**.
-
----
 
 ## Data sources
 
@@ -250,6 +246,3 @@ The practical result: **the scoring (Path A) is fully reproducible from the save
 
 MIT. See `LICENSE`.
 
-## Contact
-
-GitHub: [kevinrroga](https://github.com/kevinrroga)
