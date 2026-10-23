@@ -1,6 +1,6 @@
 # LLM-Assisted Triage of Vulnerability Reports
 
-Code, data and results for my MSc dissertation: **LLM-Assisted Triage of Vulnerability Reports: A Comparative Evaluation of Attribute Extraction from CVE Descriptions Across Large Language Models and Prompting Strategies**.
+Code, data and results for **LLM-Assisted Triage of Vulnerability Reports: A Comparative Evaluation of Attribute Extraction from CVE Descriptions Across Large Language Models and Prompting Strategies**.
 
 The project tests how well three large language models pull structured information out of free-text CVE descriptions. Each model extracts four things, and each is scored against the official NVD record:
 
@@ -13,8 +13,6 @@ The project tests how well three large language models pull structured informati
 
 **Design:** 500 CVEs x 3 models x 2 prompting conditions (zero-shot, few-shot) = 3,000 responses.
 **Models:** `gpt-5.5`, `claude-sonnet-4.6`, `deepseek-v4-pro`.
-**Dissertation:** [`docs/[FILENAME].pdf`](docs/[FILENAME].pdf)
-
 ---
 
 ## Start here: two ways to use this repo
@@ -32,8 +30,8 @@ Rebuild the dataset from NVD and call the three model APIs again. Model outputs 
 Python 3.10 or newer (tested on 3.12).
 
 ```bash
-git clone https://github.com/kevinrroga/Dissertation.git
-cd Dissertation
+git clone https://github.com/kevinrroga/dissertation_repo_copy.git
+cd dissertation_repo_copy
 
 python -m venv venv
 # Windows:      venv\Scripts\activate
@@ -248,15 +246,9 @@ The practical result: **the scoring (Path A) is fully reproducible from the save
 - CVE, CVSS and CPE data: NVD API 2.0, https://nvd.nist.gov/developers/vulnerabilities
 - CWE names and hierarchy: MITRE CWE, https://cwe.mitre.org
 
-## Citation
-
-```
-[YOUR NAME]. ([YEAR]). [DISSERTATION TITLE]. MSc dissertation, [UNIVERSITY].
-```
-
 ## License
 
-[CHOOSE, e.g. MIT for the code.] See `LICENSE`.
+MIT. See `LICENSE`.
 
 ## Contact
 
