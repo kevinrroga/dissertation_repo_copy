@@ -1,4 +1,4 @@
-Attack vector scoring — C:\Users\kevin\Desktop\cve-ner-dissertation\validation_april2026\merging_results_validation.json
+Attack vector scoring — <PROJECT_ROOT>\validation_april2026\merging_results_validation.json
 records: 75   cells: 3
 
 claude-sonnet-4.6  |  zero_shot

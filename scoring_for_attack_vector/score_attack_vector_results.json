@@ -1,6 +1,6 @@
 {
   "entity": "attack_vector",
-  "input_file": "C:\\Users\\kevin\\Desktop\\cve-ner-dissertation\\ultimate_dataset\\merging_results.json",
+  "input_file": "<PROJECT_ROOT>\\ultimate_dataset\\merging_results.json",
   "classes": [
     "NETWORK",
     "ADJACENT_NETWORK",
