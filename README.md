@@ -30,7 +30,7 @@ Rebuild the dataset from NVD and call the three model APIs again. Model outputs 
 Python 3.10 or newer (tested on 3.12).
 
 ```bash
-git clone https://github.com/kevinrroga/dissertation_repo_copy.git
+# Download the repository as a ZIP from the Anonymous GitHub page and unzip it
 cd dissertation_repo_copy
 
 python -m venv venv
